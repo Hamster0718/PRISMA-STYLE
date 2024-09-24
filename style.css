@@ -1,0 +1,213 @@
+
+* {
+  padding: 0px;
+  margin:0px;
+}
+
+html, body {
+background-color: rgb(231,145,203);
+color: rgb(177,136,4);
+font-family: "Sevillana", system-ui;
+  margin: 0;
+  overflow-x: hidden;
+  font-size: 20px;
+}
+
+.slider{
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  height: 100vh;
+  width: 100vw;
+}
+
+.slide{
+  min-width: 100vw;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: center;
+}
+  
+.principal {
+background-image: url("fundo.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+top: 0;
+left: 0;
+align-items: center;
+text-align: center;
+display: inline-block;
+font-weight: 400;
+font-style: normal;
+width: 100%;
+min-height: 100vh;
+position: relative;
+justify-content: center;
+  flex-direction: column;
+}
+
+.botao{
+background-color: rgb(250,99,125);
+border-radius: 5px;
+padding: 1em;
+color:black;
+display: block;
+font-size: 20px;
+text-decoration: none;
+margin-top: 1em;
+margin-bottom:1em;
+text-align: center;
+font-family: "Nerko One", system-ui;
+font-weight: 400;
+font-style: normal;
+margin-left: 90px;
+width: 90vh;
+}
+
+.botao2{
+background-color: rgb(250,99,125);
+border-radius: 5px;
+padding: 1em;
+color:black;
+display: block;
+font-size: 20px;
+text-decoration: none;
+margin-top: 1em;
+margin-bottom:1em;
+text-align: center;
+font-family: "Nerko One", system-ui;
+font-weight: 400;
+font-style: normal;
+margin-left: 90px;
+width: 90vh;
+}
+
+.botao:hover {
+  background-color:rgb(202,31,61);
+  color:pink;
+}
+
+.botao2:hover {
+  background-color:rgb(202,31,61);
+  color:pink;
+}
+
+.imagem{
+  height: 300px;
+  width: 400px;
+  max-width: 600px;
+  left: 0;
+  margin-right: 650px;
+}
+
+.aviso{
+color:rgb(0,0,0);
+font-size: 15px;
+margin-left:0px;
+}
+
+.titulo{
+  width:100%;
+  max-width:600px;
+  margin-left:50px;
+  margin-top: 90px;
+}
+
+.container{
+height: 100vh;
+display: grid;
+grid-template-columns: 65% 50% 50%;
+}
+
+
+.menu{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+}
+
+.menutitulo{
+  color: gold;
+  font-size: 50px;
+  margin-bottom: double;
+  text-align: center;
+font-family: "Nerko One", system-ui;
+  
+}
+
+.menuitem{
+  display: flex;
+  align-items: center;
+  background-color: pink;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px grey;
+  overflow: hidden;
+}
+
+.menuimagem{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.menuinfo{
+  padding: 20px;
+}
+
+.itemmenu{
+  font-size: 25px;
+  color: black;
+font-family: "Nerko One", system-ui;
+  
+}
+
+.descricao2{
+  font-size: 13px;
+  color: grey;
+  text-align: justify;
+}
+
+.preco{
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+font-family: "Nerko One", system-ui;
+  
+}
+
+/*PÁGINA 3*/
+
+.tiulo2{
+font-size: 45px;
+color: black;
+margin-bottom: 1em;
+text-align: center;
+font-family: "Sevillana", system-ui;
+}
+
+.secundario{
+  align-items: center;
+  margin: 0 1em;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:20px;
+  margin-top:60px;
+  font-family: "Sevillana", system-ui;
+}
+
+.descricao{
+  font-family: "Sevillana", system-ui;
+  text-align: center;
+  font-size:25px;
+}
+
+.imagem2{
+  width: 80%;
+}
